@@ -1,0 +1,9 @@
+{
+	id: "45854BD923C0D512",
+	group: "",
+	order_index: 4,
+	filename: "good_ol_armor_progression",
+	title: "Good Ol' Armor Progression",
+	default_quest_shape: "",
+	quests: []
+}

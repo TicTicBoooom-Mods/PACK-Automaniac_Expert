@@ -1,0 +1,89 @@
+Ores:
+    MetaData:
+        A = Andesite
+        D = Diorite
+        G = Granite
+        V = Gravel
+    Chunks:
+        Petalite - 0.05 DV
+        Malachite - 0.1 GDV
+        Azurite - 0.15 GV
+        Chalcopyrite - 0.12 GAV
+        Lepidolite - 0.03 D
+        Cassiterite - 0.3 DGVA
+        Alumina - 0.21 DG
+        Sphalerite - 0.05 AG
+        Magnetite - 0.34 VGDA
+        Pentlandite - 0.18 AD
+        Magnesite - 0.23 V
+        Galena - 0.23 AVG
+        Vanadinite - 0.31 AD
+        Bismuthinite - 0.2 GV
+        Acanthite - 0.14 GD
+        Pyrolusite - 0.14 GV
+        Chromite - 0.09 DVA
+        Molybdenite - 0.09 DVA
+        Wolframite - 0.09 DVA
+        Ilmenite - 0.06 DVA
+        Columbite - 0.05 DVG
+        Tantalite - 0.06 AD
+        Cobaltite - 0.09 GV
+        Celestine - 0.1 GV
+        Plantinum Arsenide - 0.04 GV
+        Zircon - 0.08 GDV
+        Throrite - 0.07 GV
+        Uraninite - 0.1 GVA
+        Greenockite - 0.15 VAD
+        Stibnite - 0.3 VA
+        Xenotime - 0.02 D
+        Barite - 0.1 DV
+        Cryolite - 0.23 DVA
+        Monazite-(Ce) - 0.02 A
+        Monazite-(La) - 0.02 A
+        Monazite-(Nd) - 0.02 A
+        Monazite-(Sm) - 0.02 A
+        Lignite - 0.4 VGAD
+        Subbituminous Coal - 0.24 VGAD
+        Bituminous Coal - 0.26 VGD
+        Anthracite Coal - 0.3 VG
+        Salt - 0.4 VGDA
+        Pink Salt - 0.35 VGA
+        Graphite - 0.2 A
+        Silicon Carbide - 0.2 A
+        Cinnabar - 0.4 GV
+        Ruby - 0.1 AD
+        Sapphire - 0.1 AD
+        Opal - 0.1 AD
+        Aquamarine - 0.1 AD
+        Tourmaline - 0.1 AD
+        Tiger Iron - 0.1 AD
+        Garnet - 0.1 AD
+        Peridot - 0.1 AD
+        Topaz - 0.1 AD
+        Amber - 0.1 AD
+        Pearl - 0.1 AD
+        Fluorite - 0.1 AD
+        Labradorite - 0.1 AD
+        Lonsdaleite Diamond - 0.1 AD
+        Rhodonite - 0.1 AD
+        Rhodochrhrosite - 0.1 AD
+        Chrome Enstatite - 0.1 AD
+        Ortyoclase Feldspar - 0.1 AD
+        Plagioclase Feldspar - 0.1 AD
+        Calcite - 0.1 D
+        Dolomite - 0.1 AD
+        Olivine - 0.1 GV
+        Pyroxene - 0.2 DV
+        Mica - 0.1 A
+        Amphibole - 0.1 A
+        Calcium Silicate - 0.2 A
+        Pozzolan - 0.2 D
+        Perlite - 0.08 AG
+        Trona - 0.08 GD
+        Thenardite - 0.1 GV
+        Borax - 0.3 D
+        Saltpeter - 0.2 D
+        Sodium Carbonate - 0.2 D
+        Sodium Sulfide - 0.2 D
+        Sodium Hydroxide - 0.2 D
+

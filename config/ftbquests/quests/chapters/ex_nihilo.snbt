@@ -1,0 +1,124 @@
+{
+	id: "048D70E7B3A502FC",
+	group: "",
+	order_index: 1,
+	filename: "ex_nihilo",
+	title: "Ex Nihilo",
+	icon: "exnihilosequentia:sieve",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			id: "6D151EE2E37D5FA6",
+			tasks: [{
+				id: "4E012A58BB7DD479",
+				type: "item",
+				item: {
+					id: "exnihilosequentia:mesh_string",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "73676DC532EBFB75",
+				type: "item",
+				item: {
+					id: "exnihilosequentia:mesh_string",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
+				count: 2
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.0d,
+			dependencies: ["6D151EE2E37D5FA6"],
+			id: "39B297FD6A029870",
+			tasks: [{
+				id: "1148B3376CF0B534",
+				type: "item",
+				item: {
+					id: "exnihilosequentia:mesh_flint",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 0.0d,
+			dependencies: ["39B297FD6A029870"],
+			id: "320191406442349B",
+			tasks: [{
+				id: "2DA23742D9E4BF25",
+				type: "item",
+				item: {
+					id: "exnihilosequentia:mesh_iron",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 1.5d,
+			dependencies: ["320191406442349B"],
+			id: "66303A77965BA16D",
+			tasks: [{
+				id: "4E0D324B3E0EAD3D",
+				type: "item",
+				item: {
+					id: "exnihilosequentia:mesh_diamond",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.5d,
+			dependencies: ["66303A77965BA16D"],
+			id: "78EF9DCD6DF5454A",
+			tasks: [{
+				id: "43A7A8025AA3E6D2",
+				type: "item",
+				item: {
+					id: "exnihilosequentia:mesh_emerald",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 1.5d,
+			dependencies: ["78EF9DCD6DF5454A"],
+			id: "151F53B771A9E231",
+			tasks: [{
+				id: "67EA1E9ADAB8CD4F",
+				type: "item",
+				item: {
+					id: "exnihilosequentia:mesh_netherite",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

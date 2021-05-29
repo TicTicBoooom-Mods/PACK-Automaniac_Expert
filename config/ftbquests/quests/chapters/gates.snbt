@@ -1,0 +1,38 @@
+{
+	id: "2E93BF4025198785",
+	group: "",
+	order_index: 0,
+	filename: "gates",
+	title: "Gates",
+	icon: "minecraft:oak_sapling",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "FREE STUFF!!!!!!!",
+			x: 0.0d,
+			y: 0.0d,
+			id: "15F592D8FEC58F45",
+			tasks: [{
+				id: "5A4E7215D0D8A4BF",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "7170B0E265F8289B",
+				type: "item",
+				item: "minecraft:oak_sapling",
+				count: 8
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.0d,
+			dependencies: ["15F592D8FEC58F45"],
+			id: "756766972E6CF4E8",
+			tasks: [{
+				id: "0D2ACEA4C565F9E1",
+				type: "item",
+				item: "exnihilosequentia:sieve"
+			}]
+		}
+	]
+}

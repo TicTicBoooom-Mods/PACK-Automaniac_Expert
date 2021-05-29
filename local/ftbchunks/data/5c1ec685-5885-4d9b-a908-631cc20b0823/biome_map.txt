@@ -1,0 +1,2 @@
+#008 minecraft:desert
+#3DC minecraft:plains

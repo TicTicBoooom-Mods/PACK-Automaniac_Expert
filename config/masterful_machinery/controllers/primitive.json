@@ -1,0 +1,40 @@
+{
+  "controllerId": "primitive",
+  "name": "Primitive",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "id": "tiny",
+      "name": "Tiny",
+      "data" : {
+        "rows": 1,
+        "columns": 2
+      }
+    },
+    {
+      "type": "masterfulmachinery:fluids",
+      "id": "tiny",
+      "name": "Tiny",
+      "data": {
+        "capacity": 3000
+      }
+    },
+    {
+      "type": "masterfulmachinery:items",
+      "id": "small",
+      "name": "Small",
+      "data" : {
+        "rows": 3,
+        "columns": 3
+      }
+    },
+    {
+      "type": "masterfulmachinery:fluids",
+      "id": "small",
+      "name": "Small",
+      "data": {
+        "capacity": 100000
+      }
+    }
+  ]
+}
