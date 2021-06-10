@@ -1,0 +1,8 @@
+Botania - Stage 0
+    Carbon - From Coal(s)
+    Silicon - Basic Uses From Stones
+    Nickel - From ores
+    Copper - From Ores
+    Iron - From Ores
+    Tin  - From Ores
+    Zinc - From Ores
