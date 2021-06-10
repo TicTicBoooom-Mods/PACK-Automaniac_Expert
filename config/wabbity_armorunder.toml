@@ -13,17 +13,17 @@ version = 1
 	#Set to the maximum number of plain liners a single piece of armor can have. Applies to all types of armor pieces (helmets, chestplates, leggings, boots, gloves, etc.). Does not apply to specialty liners.
 	#Range: 1 ~ 5
 	thickness_limit = 3
-	#Set to true to enable special items unrelated to temperature management. Even if enabled, most of these items are uncraftable and need to be included as loot, advancement rewards, or with custom crafting recipes. Requires restart if changed.
+	#Set to true to enable special items unrelated to temperature management. Even if enabled, most of these items are uncraftable and need to be included as loot, advancement rewards, or with custom crafting recipes.ts. Requires restart if changed.
 	include_special_items = false
-	#Set to "true" to include crafting recipes for some liners (and materials) that are normally obtained through other mechanisms like looting or advancements. By default, only the temperature-related 'Ozzy' liners are craftable.
+	#Set to "true" to include crafting recipes.ts for some liners (and materials) that are normally obtained through other mechanisms like looting or advancements. By default, only the temperature-related 'Ozzy' liners are craftable.
 	special_liners_craftable = "*DEFAULT*"
 
 [integration]
-	#Set to true to force all the basic recipes to use a mod-specific element to ensure no collisions with other mod recipes. Off by default; requires restart if changed.
+	#Set to true to force all the basic recipes.ts to use a mod-specific element to ensure no collisions with other mod recipes.ts. Off by default; requires restart if changed.
 	super_compatibility_mode = false
 	#Set to true to allow any mod's armor pieces to be altered with any type of lining. If true, all other armor inclusion criteria ignored. Disabled by default; requires restart if changed.
 	allow_all_armor = false
-	#Set to the ids of mods where all armor pieces can be adjusted with liners. Modded armor not covered by the other integration categories and not defined here is not allowed to be changed with the mod's default recipes. Requires a restart if changed.
+	#Set to the ids of mods where all armor pieces can be adjusted with liners. Modded armor not covered by the other integration categories and not defined here is not allowed to be changed with the mod's default recipes.ts. Requires a restart if changed.
 	allowed_modlist = ["armorplus", "craftandhunt", "conarm", "dungeons_gear", "easy_steel", "enigmaticlegacy", "iceandfire", "pinklysheep", "silentgear", "survive"]
 	#Set to the registry ids of all modded helmets that can be worn with lining up to 3 layers thick (actual max thickness depends on armor piece). Works in conjunction with datapack tag groups. Some examples shown. Requires a restart if changed.
 	helmets = ["armorplus:infused_lava_helmet", "conarm:helmet", "cyclic:emerald_helmet", "cyclic:crystal_helmet"]
@@ -33,7 +33,7 @@ version = 1
 	leggings = ["armorplus:infused_lava_leggings", "conarm:leggings", "cyclic:emerald_leggings", "cyclic:crystal_leggings"]
 	#Set to the registry ids of all modded boots that can be worn with lining up to 3 layers thick (actual max thickness depends on armor piece). Works in conjunction with datapack tag groups. Some examples shown. Requires a restart if changed.
 	boots = ["armorplus:infused_lava_boots", "conarm:boots", "cyclic:emerald_boots", "cyclic:crystal_boots"]
-	#Set to false to disable the recipes to refill and recycle used goo paks. Included by default; requires restart if changed.
+	#Set to false to disable the recipes.ts to refill and recycle used goo paks. Included by default; requires restart if changed.
 	used_goopak_recycling = true
 
 [special_items]

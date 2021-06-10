@@ -32,14 +32,14 @@
 	generate_wip = false
 
 [droprate]
-	#Rate of hemp seed drops from grass blocks.
+	#Rate of hemp seed drops from grass block.
 	#Range: 0 ~ 100
 	hemp_seed_rate = 8
 	#Whether to have seeds from this mod drop from grass at all.
 	drop_seeds = true
 
 [toolcontrollers]
-	#Decides what blocks are allowed and not allowed to be affected by the sickle.
+	#Decides what block are allowed and not allowed to be affected by the sickle.
 	#Adding '+' to the start of the block will add it, and '-' will remove it.
 	sickle_block_list = []
 

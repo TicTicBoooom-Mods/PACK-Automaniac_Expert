@@ -2,7 +2,8 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        server_scripts: './server.ts'
+        server_scripts: './server/server.ts',
+        startup_scripts: './startup/startup.ts',
     },
     output: {
         path: path.resolve(__dirname, '../'),

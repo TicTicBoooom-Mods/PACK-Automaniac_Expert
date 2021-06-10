@@ -92,7 +92,7 @@
 [machine]
 
 	[machine.general]
-		#The maximum offset in blocks a directional connector can look for its target.
+		#The maximum offset in block a directional connector can look for its target.
 		maxDirectionalConnectorOffset = 512
 		#Priority list of mod id's when determining tag-based recipe outputs.
 		recipeTagOutputModPriorities = []

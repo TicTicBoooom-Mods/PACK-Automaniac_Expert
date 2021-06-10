@@ -7,7 +7,9 @@ emojiful/
 craftpresence/
 dumps/
 natives/
-saves/
+saves/**
 schematics/
 screenshots/
 resourcepacks/
+local/
+backups/

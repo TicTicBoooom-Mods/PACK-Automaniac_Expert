@@ -17,7 +17,7 @@ portalLightning = false
 shouldReturnPortalBeUsable = true
 #Sets the default value of the game rule controlling enforced progression.
 progressionRuleDefault = true
-#Disable the uncrafting function of the uncrafting table. Provided as an option when interaction with other mods produces exploitable recipes.
+#Disable the uncrafting function of the uncrafting table. Provided as an option when interaction with other mods produces exploitable recipes.ts.
 disableUncrafting = false
 #If true, Keepsake Caskets that are spawned when a player dies will not be accessible by other players. Use this if you dont want people taking from other people's death caskets. NOTE: server operators will still be able to open locked caskets.
 uuid_locking = false
@@ -59,7 +59,7 @@ uuid_locking = false
 	#Defines custom stalactites generated in hollow hills.
 	#Format is "modid:block size maxLength minHeight weight", where the properties are:
 	#Size - the maximum length of the stalactite relative to the space between hill floor and ceiling,
-	#Max length - maximum length of a stalactite in blocks,
+	#Max length - maximum length of a stalactite in block,
 	#Min height - minimum space between the hill floor and the stalactite to let it generate,
 	#Weight - how often it generates.
 	#

@@ -28,14 +28,14 @@
 	melterNuggetsPerOre = 9
 	#Number of nuggets produced when an ore block is melted in the foundry. 9 nuggets would give 1 ingot
 	#Range: 1 ~ 45
-	foundryNuggetsPerOre = 15
+	foundryNuggetsPerOre = 9
 
 #Everything to do with world generation
 [worldgen]
 	#Generate Cobalt
-	generateCobalt = true
+	generateCobalt = false
 	#Generate Copper
-	generateCopper = true
+	generateCopper = false
 	#Approx Ores per Chunk
 	veinCountCobalt = 8
 	#Approx Ores per Chunk

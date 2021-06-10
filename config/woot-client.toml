@@ -6,12 +6,12 @@
 
 #Settings for the layout guide
 [layout]
-	#Use untextured blocks to render the factory
+	#Use untextured block to render the factory
 	simple = false
-	#Opacity of the layout blocks
+	#Opacity of the layout block
 	#Range: 0.1 ~ 1.0
 	renderOpacity = 0.95
-	#Size of the layout blocks
+	#Size of the layout block
 	#Range: 0.1 ~ 1.0
 	renderSize = 0.35
 

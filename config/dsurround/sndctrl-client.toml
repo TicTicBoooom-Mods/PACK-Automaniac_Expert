@@ -5,7 +5,7 @@
 	"Enable Enhanced Sounds" = true
 	#Enable conversion of stereo sounds to mono format for spacial play
 	"Enable Stereo to Mono Conversion" = true
-	#Enable sound occlusion calculations (sound muffling when positioned behind blocks)
+	#Enable sound occlusion calculations (sound muffling when positioned behind block)
 	"Enable Sound Occlusion Calculations" = true
 	#Number of streaming sound channels to configure
 	#Range: 8 ~ 16

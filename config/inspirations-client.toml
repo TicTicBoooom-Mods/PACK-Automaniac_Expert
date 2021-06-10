@@ -4,6 +4,6 @@ betterCauldronItemModel = true
 coloredFireworkItems = true
 #The ribbon on enchanted books colors based on the enchantment rarity
 coloredEnchantedRibbons = true
-#Allows the portal color to be changed by placing colored blocks under the portal. Any block that tints a beacon beam will work for the color.
+#Allows the portal color to be changed by placing colored block under the portal. Any block that tints a beacon beam will work for the color.
 customPortalColor = true
 

@@ -2,7 +2,7 @@
 [machine]
 
 	[machine.general]
-		#If the crafting interface should validate recipes on insertion.
+		#If the crafting interface should validate recipes.ts on insertion.
 		validateRecipesCraftingInterface = true
 		#The maximum amount of crafting jobs that could be scheduled within one crafting interface without being started
 		maxPendingCraftingJobs = 256
