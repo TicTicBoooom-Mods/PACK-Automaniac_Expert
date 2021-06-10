@@ -1,0 +1,40 @@
+Tinkers - Stage ALL
+    All alloys - For Tools, NOT ingots
+        ingots formed from mm machine later on
+
+NOT YET ALLOCATED
+    Industrial Foregoing
+        Dissolution Chamber as alloy ingot-former
+            requires extra items and center fluid as tinkers alloy fluid
+
+
+Botania - Stage 0
+    Pure Daisy - for living rock
+    mana pool & wand of forest
+    mana spreader
+        replace gold ingot in recipe for living rock
+    Iron Ore in mana pool makes iron ingots
+    generator flower
+    runic alter
+        replace mana pearl with MANA Weave cloth
+    SMELTING - kinda
+        runic alter
+            1x coal | 1x charcoal | 7 ore blocks => 10 ingots of
+                works with:
+                    magnetite => iron
+                    Lignite => Lignite
+                    Native Copper, Malachite, Interspinifex => Copper
+                    Sphalerite => Zinc
+                    Native Lead, Galena => Lead
+                    Halite => Salt
+                    Pink Halite => Pink Salt
+
+Create - Stage 1
+    Andesite Alloy - From Tinkers
+        Molten Andesite Cast onto Zinc ingot
+        Creates 4x
+    cogwheels & shafts
+    conveyor belts
+        kelp recipe or Tough Fabric around a shaft
+
+

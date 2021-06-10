@@ -1,0 +1,8 @@
+{
+  "parent": "am:block/cube_overlayed_detailed",
+  "textures": {
+    "base": "minecraft:block/cobblestone",
+    "overlay": "compressium:/block/layer_1",
+    "detail": "masterfulmachinery:block/controller_cutout"
+  }
+}
