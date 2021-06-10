@@ -1,5 +1,5 @@
 
-#all these don't actually disable blocks anymore, they just remove their recipe and remove them from the creative tabs(like all other mods do)
+#all these don't actually disable block anymore, they just remove their recipe and remove them from the creative tabs(like all other mods do)
 #to access server configuration go into /saves/serverconfigs
 [general]
 	#enable creative tab
@@ -9,7 +9,7 @@
 	#creates a creative tab full of filled jars
 	jar_tab = false
 
-#Enable and disable blocks / entities
+#Enable and disable block / entities
 [registration]
 
 	[registration.blocks]

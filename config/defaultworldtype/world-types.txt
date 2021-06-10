@@ -1,4 +1,4 @@
-13 possible world types found:
+14 possible world types found:
 - default
 - flat
 - large_biomes
@@ -8,6 +8,7 @@
 - single_biome_floating_islands
 - debug_all_block_states
 - betterendforge.world_type
+- botania-skyblock
 - skyblockbuilder.custom_skyblock
 - byg.world
 - quark.realistic

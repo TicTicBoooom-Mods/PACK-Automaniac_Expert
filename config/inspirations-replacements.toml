@@ -1,10 +1,10 @@
 #Makes iron bars climbable if a rope is below them.
 climbableBars = true
-#Replace the cauldron block to allow it to hold other liquids and perform extended recipes.
+#Replace the cauldron block to allow it to hold other liquids and perform extended recipes.ts.
 cauldron = true
-#Replace carpet blocks, allowing them to fit to stairs below them.
+#Replace carpet block, allowing them to fit to stairs below them.
 fittedCarpets = true
-#Replace hopper blocks, allowing them to be waterlogged.
+#Replace hopper block, allowing them to be waterlogged.
 waterlogHoppers = true
 
 [enchantments]

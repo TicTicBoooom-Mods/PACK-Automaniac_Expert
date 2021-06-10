@@ -263,11 +263,11 @@
 			pureOreMultiplier = 2
 			#Set to false if you want to manualy manage processing of pure ore.
 			pureOreRecipeInjection = true
-			#Set to false if you want pure ore to not use smelting recipes.
+			#Set to false if you want pure ore to not use smelting recipes.ts.
 			pureOreSmeltingRecipe = true
-			#Set to false if you want pure ore to not use blasting recipes.
+			#Set to false if you want pure ore to not use blasting recipes.ts.
 			pureOreBlastingRecipe = true
-			#Set to false if you want pure ore to not use camp fire recipes.
+			#Set to false if you want pure ore to not use camp fire recipes.ts.
 			pureOreCampFireRecipe = true
 
 	[instruments.elementPipe]
@@ -393,14 +393,14 @@
 		#The dimishing amount multiplier when using pure ore in mekanism. it prevent an exploit.
 		#Range: 0.0 ~ 1.0
 		mekanismPureOreDimishingAmount = 0.75
-		#Set to false if you want pure ore to not use mekanism dissolution recipes.
+		#Set to false if you want pure ore to not use mekanism dissolution recipes.ts.
 		mekanismPureOreDissolutionRecipe = true
-		#Set to false if you want pure ore to not use mekanism injecting recipes.
+		#Set to false if you want pure ore to not use mekanism injecting recipes.ts.
 		mekanismPureOreInjectingRecipe = true
-		#Set to false if you want pure ore to not use mekanism purifying recipes.
+		#Set to false if you want pure ore to not use mekanism purifying recipes.ts.
 		mekanismPureOrePurifyingRecipe = true
-		#Set to false if you want pure ore to not use mekanism enriching recipes.
+		#Set to false if you want pure ore to not use mekanism enriching recipes.ts.
 		mekanismPureOreEnrichingRecipe = true
-		#Set to false if you want pure ore to not use mekanism crushing recipes.
+		#Set to false if you want pure ore to not use mekanism crushing recipes.ts.
 		mekanismPureOreCrushingRecipe = true
 

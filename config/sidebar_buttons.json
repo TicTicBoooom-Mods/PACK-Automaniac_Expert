@@ -1,6 +1,6 @@
 {
-	"ftbquests": {
-		"quests": true
+	"ftbteams": {
+		"my_team": true
 	},
 	"ftblibrary": {
 		"toggle.gamemode": true,

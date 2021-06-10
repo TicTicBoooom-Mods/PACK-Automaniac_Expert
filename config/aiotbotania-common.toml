@@ -1,5 +1,5 @@
 
 [terra_tier]
-	#If set to false, the recipes for the Terrasteel AIOT will be disabled. [default: true]
+	#If set to false, the recipes.ts for the Terrasteel AIOT will be disabled. [default: true]
 	enabled = true
 

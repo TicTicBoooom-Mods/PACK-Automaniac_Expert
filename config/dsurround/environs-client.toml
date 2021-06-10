@@ -25,7 +25,7 @@
 	"Fire Jets" = true
 	#Enable/disable Bubble Jets under water
 	"Bubble Jets" = true
-	#Enable/disable Dust Motes dropping from under blocks
+	#Enable/disable Dust Motes dropping from under block
 	"Dust Jets" = true
 	#Enable/disable Fountain Jets spraying
 	"Fountain Jets" = true

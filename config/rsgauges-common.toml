@@ -4,9 +4,9 @@
 
 	#Opt-out settings
 	[server.optout]
-		#Opt-out any block by its registry name ('*' wildcard matching, comma separated list, whitespaces ignored. You must match the whole name, means maybe add '*' also at the begin and end. Example: '*wood*,*steel*' excludes everything that has 'wood' or 'steel' in the registry name. The matching result is also traced in the log file. 
+		#Opt-out any block by its registry name ('*' wildcard matching, comma separated list, whitespaces ignored. You must match the whole name, means maybe add '*' also at the begin and end. Example: '*wood*,*steel*' excludes everything that has 'wood' or 'steel' in the registry name. The matching result is also traced in the log file.
 		pattern_excludes = ""
-		#Prevent blocks from being opt'ed by registry name ('*' wildcard matching, comma separated list, whitespaces ignored. Evaluated before all other opt-out checks. You must match the whole name, means maybe add '*' also at the begin and end. Example: '*wood*,*steel*' includes everything that has 'wood' or 'steel' in the registry name.The matching result is also traced in the log file.
+		#Prevent block from being opt'ed by registry name ('*' wildcard matching, comma separated list, whitespaces ignored. Evaluated before all other opt-out checks. You must match the whole name, means maybe add '*' also at the begin and end. Example: '*wood*,*steel*' includes everything that has 'wood' or 'steel' in the registry name.The matching result is also traced in the log file.
 		pattern_includes = ""
 		#Disables switch remote linking.
 		without_switch_linking = false
@@ -18,7 +18,7 @@
 		#Defines how far you or a link source switch can be away from the target to activate it. The value 0 means 'no limitation',  as long as the target chunk is loaded.
 		#Range: 0 ~ 64
 		max_switch_linking_distance = 48
-		#Comma separated list of items names that can be used alter configurable blocks of this mod. This applies when the display side of the block is right click (activated) with the item in the main hand.
+		#Comma separated list of items names that can be used alter configurable block of this mod. This applies when the display side of the block is right click (activated) with the item in the main hand.
 		accepted_wrenches = "minecraft:redstone_torch,immersiveengineering:screwdriver,immersiveengineering:hammer"
 		#Enable detailed logging of the config values and resulting calculations in each mod feature config.
 		with_config_logging = false

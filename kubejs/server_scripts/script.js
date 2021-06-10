@@ -1,1 +1,238 @@
-(()=>{"use strict";var e,t={934:(e,t)=>{Object.defineProperty(t,"__esModule",{value:!0}),t.rm_sieve_loot=t.ens_roll=t.MeshPresets=t.Mesh=t.SieveRecipeBuilder=void 0;var r=function(){function e(){this.input={},this.outputs=[]}return e.prototype.set_input=function(e,t){return this.input[e]=t,this},e.prototype.add_output=function(e,t,r){return this.outputs.push({keys:e,item:t,rolls:r}),this},e.prototype.build=function(e){for(var t=0;t<this.outputs.length;t++)for(var r=0;r<this.outputs[t].keys.length;r++){var s=this.outputs[t].keys.charAt(r),a={type:"exnihilosequentia:sieve",rolls:this.outputs[t].rolls,input:{item:this.input[s]},result:{item:this.outputs[t].item}};e.custom(a)}},e}();t.SieveRecipeBuilder=r;var s=function(){function e(){}return e.STRING="string",e.FLINT="flint",e.IRON="iron",e.DIAMOND="diamond",e.EMERALD="emerald",e.NETHERITE="netherite",e}();t.Mesh=s;var a=function(){function e(){}return e.ore=function(e){return[i(s.FLINT,e),i(s.IRON,1.2*e),i(s.DIAMOND,1.5*e),i(s.EMERALD,2*e),i(s.NETHERITE,3*e)]},e}();function i(e,t){return{mesh:e,chance:Math.round(100*t)/100}}t.MeshPresets=a,t.ens_roll=i,t.rm_sieve_loot=function(e,t){e.remove({id:"exnihilosequentia:sieve/ens_"+t})}},334:(e,t)=>{Object.defineProperty(t,"__esModule",{value:!0}),t.rankine=void 0,t.rankine=function(e){return"rankine:"+e}},82:(e,t,r)=>{Object.defineProperty(t,"__esModule",{value:!0}),t.run_early_server=void 0;var s=r(934),a=r(334);t.run_early_server=function(e){!function(e){s.rm_sieve_loot(e,"emerald"),s.rm_sieve_loot(e,"diamond"),s.rm_sieve_loot(e,"piece_aluminum_gravel"),s.rm_sieve_loot(e,"piece_copper_gravel"),s.rm_sieve_loot(e,"piece_gold_crushed_netherrack"),s.rm_sieve_loot(e,"piece_gold_gravel"),s.rm_sieve_loot(e,"piece_iron_gravel"),s.rm_sieve_loot(e,"piece_iron_sand"),s.rm_sieve_loot(e,"piece_lead_gravel"),s.rm_sieve_loot(e,"piece_nickel_gravel"),s.rm_sieve_loot(e,"piece_platinum_gravel"),s.rm_sieve_loot(e,"piece_silver_gravel"),s.rm_sieve_loot(e,"piece_tin_gravel"),s.rm_sieve_loot(e,"piece_uranium_gravel"),s.rm_sieve_loot(e,"piece_zinc_gravel"),s.rm_sieve_loot(e,"piece_osmium_gravel"),e.remove({id:"exnihilomekanism:sieve/ens_piece_osmium_1"}),e.remove({id:"exnihilomekanism:sieve/ens_piece_osmium_2"}),e.remove({id:"exnihilomekanism:sieve/ens_piece_osmium_3"}),e.remove({id:"exnihilothermal:sieve/ens_apatite"}),e.remove({id:"exnihilothermal:sieve/ens_cinnabar"}),e.remove({id:"exnihilothermal:sieve/ens_niter"}),e.remove({id:"exnihilothermal:sieve/ens_sulfur"})}(e),function(e){(new s.SieveRecipeBuilder).set_input("a","exnihilosequentia:crushed_andesite").set_input("d","exnihilosequentia:crushed_diorite").set_input("g","exnihilosequentia:crushed_granite").set_input("v","minecraft:gravel").add_output("dv",a.rankine("petalite"),s.MeshPresets.ore(.05)).add_output("gdv",a.rankine("malachite"),s.MeshPresets.ore(.2)).add_output("gv",a.rankine("azurite"),s.MeshPresets.ore(.15)).add_output("gav",a.rankine("chalcopyrite"),s.MeshPresets.ore(.12)).add_output("d",a.rankine("lepidolite"),s.MeshPresets.ore(.03)).add_output("dvga",a.rankine("cassiterite"),s.MeshPresets.ore(.3)).add_output("dg",a.rankine("alumina"),s.MeshPresets.ore(.21)).add_output("ag",a.rankine("sphalerite"),s.MeshPresets.ore(.05)).add_output("vgda",a.rankine("magnetite"),s.MeshPresets.ore(.34)).add_output("ad",a.rankine("pentlandite"),s.MeshPresets.ore(.18)).add_output("v",a.rankine("magnesite"),s.MeshPresets.ore(.23)).add_output("avg",a.rankine("galena"),s.MeshPresets.ore(.23)).add_output("ad",a.rankine("vanadinite"),s.MeshPresets.ore(.31)).add_output("gv",a.rankine("bismuthinite"),s.MeshPresets.ore(.2)).add_output("gd",a.rankine("acanthite"),s.MeshPresets.ore(.14)).add_output("gv",a.rankine("pyrolusite"),s.MeshPresets.ore(.14)).add_output("dva",a.rankine("chromite"),s.MeshPresets.ore(.09)).add_output("dva",a.rankine("moplybdenite"),s.MeshPresets.ore(.09)).add_output("dva",a.rankine("wolframite"),s.MeshPresets.ore(.09)).add_output("dva",a.rankine("ilmenite"),s.MeshPresets.ore(.06)).add_output("dvg",a.rankine("columbite"),s.MeshPresets.ore(.05)).add_output("ad",a.rankine("tantalite"),s.MeshPresets.ore(.06)).add_output("gv",a.rankine("cobaltite"),s.MeshPresets.ore(.09)).add_output("gv",a.rankine("celestine"),s.MeshPresets.ore(.1)).add_output("gv",a.rankine("platinum_arsenide"),s.MeshPresets.ore(.04)).add_output("gdv",a.rankine("zircon"),s.MeshPresets.ore(.08)).add_output("gv",a.rankine("thorite"),s.MeshPresets.ore(.07)).add_output("gva",a.rankine("uraninite"),s.MeshPresets.ore(.1)).add_output("vad",a.rankine("greenockite"),s.MeshPresets.ore(.15)).add_output("va",a.rankine("stibnite"),s.MeshPresets.ore(.3)).add_output("d",a.rankine("xenotime"),s.MeshPresets.ore(.02)).add_output("dv",a.rankine("barite"),s.MeshPresets.ore(.1)).add_output("dva",a.rankine("cryolite"),s.MeshPresets.ore(.23)).add_output("a",a.rankine("cerium_monazite"),s.MeshPresets.ore(.02)).add_output("a",a.rankine("lanthanum_monazite"),s.MeshPresets.ore(.02)).add_output("a",a.rankine("neodymium_monazite"),s.MeshPresets.ore(.02)).add_output("a",a.rankine("samarium_monazite"),s.MeshPresets.ore(.02)).add_output("vgad",a.rankine("lignite"),s.MeshPresets.ore(.4)).add_output("vgad",a.rankine("subbituminous_coal"),s.MeshPresets.ore(.24)).add_output("vgd",a.rankine("bituminous_coal"),s.MeshPresets.ore(.26)).add_output("vg",a.rankine("anthracite_coal"),s.MeshPresets.ore(.26)).add_output("vgda",a.rankine("salt"),s.MeshPresets.ore(.4)).add_output("vga",a.rankine("pink_salt"),s.MeshPresets.ore(.35)).add_output("a",a.rankine("graphite"),s.MeshPresets.ore(.2)).add_output("a",a.rankine("silicon_carbide"),s.MeshPresets.ore(.2)).add_output("gv",a.rankine("cinnabar"),s.MeshPresets.ore(.4)).add_output("ad",a.rankine("ruby"),s.MeshPresets.ore(.1)).add_output("ad",a.rankine("sapphire"),s.MeshPresets.ore(.1)).add_output("ad",a.rankine("opal"),s.MeshPresets.ore(.1)).add_output("ad",a.rankine("aquamarine"),s.MeshPresets.ore(.1)).add_output("ad",a.rankine("tourmaline"),s.MeshPresets.ore(.1)).add_output("ad",a.rankine("tiger_iron"),s.MeshPresets.ore(.1)).add_output("ad",a.rankine("garnet"),s.MeshPresets.ore(.1)).add_output("ad",a.rankine("peridot"),s.MeshPresets.ore(.1)).add_output("ad",a.rankine("topaz"),s.MeshPresets.ore(.1)).add_output("ad",a.rankine("amber"),s.MeshPresets.ore(.1)).add_output("ad",a.rankine("pearl"),s.MeshPresets.ore(.1)).add_output("ad",a.rankine("fluorite"),s.MeshPresets.ore(.1)).add_output("ad",a.rankine("labradorite"),s.MeshPresets.ore(.1)).add_output("ad",a.rankine("lonsdaleite_diamond"),s.MeshPresets.ore(.1)).add_output("ad",a.rankine("rhodonite"),s.MeshPresets.ore(.1)).add_output("ad",a.rankine("rhodochrosite"),s.MeshPresets.ore(.1)).add_output("ad",a.rankine("chrome_enstatite"),s.MeshPresets.ore(.1)).add_output("ad",a.rankine("feldspar"),s.MeshPresets.ore(.1)).add_output("ad",a.rankine("plagioclase_feldspar"),s.MeshPresets.ore(.1)).add_output("d",a.rankine("calcite"),s.MeshPresets.ore(.1)).add_output("ad",a.rankine("dolomite"),s.MeshPresets.ore(.1)).add_output("gv",a.rankine("olivine"),s.MeshPresets.ore(.1)).add_output("dv",a.rankine("pyroxene"),s.MeshPresets.ore(.1)).add_output("a",a.rankine("mica"),s.MeshPresets.ore(.1)).add_output("a",a.rankine("amphibole"),s.MeshPresets.ore(.1)).add_output("a",a.rankine("calcium_silicate"),s.MeshPresets.ore(.2)).add_output("d",a.rankine("pozzolan"),s.MeshPresets.ore(.2)).add_output("ag",a.rankine("perlite"),s.MeshPresets.ore(.08)).add_output("gd",a.rankine("trona"),s.MeshPresets.ore(.08)).add_output("gv",a.rankine("thenardite"),s.MeshPresets.ore(.1)).add_output("d",a.rankine("borax"),s.MeshPresets.ore(.08)).add_output("d",a.rankine("saltpeter"),s.MeshPresets.ore(.08)).build(e)}(e)}}},r={};e=function e(s){var a=r[s];if(void 0!==a)return a.exports;var i=r[s]={exports:{}};return t[s](i,i.exports,e),i.exports}(82),onEvent("recipes",(function(t){e.run_early_server(t)}))})();
+(() => {
+    "use strict";
+    var e, t, n, i, a, r = {
+        450: (e, t) => {
+            Object.defineProperty(t, "__esModule", {value: !0}), t.botania = t.ie = t.extended_crafting = t.mm_controller = t.ex_nihilo_thermal = t.ex_nihilo_mekanism = t.ex_nihilo_sequentia = t.rankine = void 0, t.rankine = function (e) {
+                return "rankine:" + e
+            }, t.ex_nihilo_sequentia = function (e) {
+                return "exnihilosequentia:" + e
+            }, t.ex_nihilo_mekanism = function (e) {
+                return "exnihilomekanism:" + e
+            }, t.ex_nihilo_thermal = function (e) {
+                return "exnihilothermal:" + e
+            }, t.mm_controller = function (e) {
+                return "masterfulmachinery:" + e + "_controller"
+            }, t.extended_crafting = function (e) {
+                return "extendedcrafting:" + e
+            }, t.ie = function (e) {
+                return "immersiveengineering:" + e
+            }, t.botania = function (e) {
+                return "botania:" + e
+            }
+        }, 952: function (e, t) {
+            var n = this && this.__values || function (e) {
+                var t = "function" == typeof Symbol && Symbol.iterator, n = t && e[t], i = 0;
+                if (n) return n.call(e);
+                if (e && "number" == typeof e.length) return {
+                    next: function () {
+                        return e && i >= e.length && (e = void 0), {value: e && e[i++], done: !e}
+                    }
+                };
+                throw new TypeError(t ? "Object is not iterable." : "Symbol.iterator is not defined.")
+            };
+
+            function i(e, t, i, a) {
+                for (var r, o, c = [], l = 4; l < arguments.length; l++) c[l - 4] = arguments[l];
+                var s = {type: "botania:runic_altar", output: {item: t, count: i}, mana: a, ingredients: []};
+                try {
+                    for (var _ = n(c), u = _.next(); !u.done; u = _.next()) {
+                        var d = u.value;
+                        s.ingredients.push(d)
+                    }
+                } catch (e) {
+                    r = {error: e}
+                } finally {
+                    try {
+                        u && !u.done && (o = _.return) && o.call(_)
+                    } finally {
+                        if (r) throw r.error
+                    }
+                }
+                e.custom(s)
+            }
+
+            Object.defineProperty(t, "__esModule", {value: !0}), t.runic_altar_smelting = t.runic_altar_recipe = void 0, t.runic_altar_recipe = i, t.runic_altar_smelting = function (e, t, n) {
+                var a = {tag: n};
+                i(e, t, 14, 5e3, a, a, a, a, a, a, a, a, {item: "minecraft:coal"}, {item: "minecraft:charcoal"})
+            }
+        }, 443: function (e, t) {
+            var n = this && this.__values || function (e) {
+                var t = "function" == typeof Symbol && Symbol.iterator, n = t && e[t], i = 0;
+                if (n) return n.call(e);
+                if (e && "number" == typeof e.length) return {
+                    next: function () {
+                        return e && i >= e.length && (e = void 0), {value: e && e[i++], done: !e}
+                    }
+                };
+                throw new TypeError(t ? "Object is not iterable." : "Symbol.iterator is not defined.")
+            };
+            Object.defineProperty(t, "__esModule", {value: !0}), t.add_all_item_tags = void 0, t.add_all_item_tags = function (e, t) {
+                for (var i, a, r = [], o = 2; o < arguments.length; o++) r[o - 2] = arguments[o];
+                try {
+                    for (var c = n(r), l = c.next(); !l.done; l = c.next()) {
+                        var s = l.value;
+                        e.add(t, s)
+                    }
+                } catch (e) {
+                    i = {error: e}
+                } finally {
+                    try {
+                        l && !l.done && (a = c.return) && a.call(c)
+                    } finally {
+                        if (i) throw i.error
+                    }
+                }
+            }
+        }, 721: (e, t) => {
+            Object.defineProperty(t, "__esModule", {value: !0}), t.tinkers_table_casting_consumed = t.tinkers_melting_tag = void 0, t.tinkers_melting_tag = function (e, t, n, i, a, r) {
+                void 0 === a && (a = 500), void 0 === r && (r = 100), e.custom({
+                    type: "tconstruct:melting",
+                    ingredient: {tag: t},
+                    result: {fluid: n, amount: i},
+                    temperature: a,
+                    time: r
+                })
+            }, t.tinkers_table_casting_consumed = function (e, t, n, i, a, r) {
+                e.custom({
+                    type: "tconstruct:casting_table",
+                    cast: {tag: t},
+                    cast_consumed: !0,
+                    fluid: {name: n, amount: i},
+                    result: a,
+                    cooling_time: r
+                })
+            }
+        }, 521: (e, t, n) => {
+            Object.defineProperty(t, "__esModule", {value: !0}), t.setup_botanical_recipes = void 0;
+            var i = n(952);
+            t.setup_botanical_recipes = function (e) {
+                e.remove({id: "botania:mana_spreader"}), e.shaped("botania:mana_spreader", ["LLL", "RP ", "LLL"], {
+                    L: "botania:livingwood",
+                    R: "botania:livingrock",
+                    P: "#botania:petals"
+                }), e.remove({id: "botania:runic_altar"}), e.shaped("botania:runic_altar", ["LLL", "LWL"], {
+                    L: "botania:livingrock",
+                    W: "botania:manaweave_cloth"
+                }), i.runic_altar_smelting(e, "minecraft:iron_ingot", "forge:ores/iron"), i.runic_altar_smelting(e, "create:zinc_ingot", "forge:ores/zinc"), i.runic_altar_smelting(e, "rankine:copper_ingot", "forge:ores/copper"), i.runic_altar_smelting(e, "rankine:lignite", "forge:ores/lignite"), i.runic_altar_smelting(e, "rankine:salt", "forge:ores/halite"), i.runic_altar_smelting(e, "rankine:pink_salt", "forge:ores/pink_halite"), i.runic_altar_smelting(e, "minecraft:gold_ingot", "forge:ores/gold")
+            }
+        }, 330: (e, t, n) => {
+            Object.defineProperty(t, "__esModule", {value: !0}), t.setup_extended_crafting_recipes = void 0;
+            var i = n(450);
+
+            function a(e, t, n) {
+                e.shaped(i.extended_crafting(t + "_table"), ["GLG", "OCO", " O "], {
+                    G: n,
+                    O: "#minecraft:logs",
+                    C: "#forge:workbenches",
+                    L: "botania:livingrock"
+                })
+            }
+
+            t.setup_extended_crafting_recipes = function (e) {
+                !function (e) {
+                    e.remove({id: "create:crafting/kinetics/shaft"}), e.custom({
+                        type: "extendedcrafting:shaped_table",
+                        pattern: ["AA", "AA", "AA", "AA", "AA"],
+                        key: {A: {item: "create:andesite_alloy"}},
+                        result: {item: "create:shaft", count: 4}
+                    }), e.remove({id: "create:crafting/kinetics/large_cogwheel"}), e.custom({
+                        type: "extendedcrafting:shaped_table",
+                        pattern: [" AAA ", "ABCBA", "ACDCA", "ABCBA", " AAA "],
+                        key: {
+                            A: {tag: "minecraft:wooden_slabs"},
+                            B: {item: "botania:livingrock"},
+                            C: {item: "create:andesite_alloy"},
+                            D: {item: "create:shaft"}
+                        },
+                        result: {item: "create:large_cogwheel", count: 3}
+                    }), e.remove({id: "create:crafting/kinetics/cogwheel"}), e.custom({
+                        type: "extendedcrafting:shaped_table",
+                        pattern: ["  A  ", " ABA ", "ABCBA", " ABA ", "  A  "],
+                        key: {
+                            A: {tag: "minecraft:wooden_slabs"},
+                            B: {item: "botania:livingrock"},
+                            C: {item: "create:shaft"}
+                        },
+                        result: {item: "create:cogwheel", count: 6}
+                    }), e.remove({id: "create:crafting/kinetics/gearbox"}), e.custom({
+                        type: "extendedcrafting:shaped_table",
+                        pattern: ["AAAAA", "BCDCB", "EDEDE", "BDCDB", "AAAAA"],
+                        key: {
+                            A: {item: "create:andesite_alloy"},
+                            B: {tag: "minecraft:wooden_slabs"},
+                            C: {item: "create:large_cogwheel"},
+                            D: {item: "create:cogwheel"},
+                            E: {item: "create:shaft"}
+                        },
+                        result: {item: "create:gearbox"}
+                    }), e.remove({id: "create:crafting/kinetics/propeller"}), e.custom({
+                        type: "extendedcrafting:shaped_table",
+                        pattern: ["A   A", " ABA ", " BCB ", " ABA ", "A   A"],
+                        key: {
+                            A: {tag: "forge:ingots/iron"},
+                            B: {item: "create:andesite_alloy"},
+                            C: {item: "create:shaft"}
+                        },
+                        result: {item: "create:propeller"}
+                    }), e.remove({id: "create:crafting/kinetics/encased_fan"}), e.custom({
+                        type: "extendedcrafting:shaped_table",
+                        pattern: ["AAAAA", "BCCCB", "DEEFF", "BCCCB", "AAAAA"],
+                        key: {
+                            A: {item: "create:andesite_alloy"},
+                            B: {tag: "minecraft:wooden_slabs"},
+                            C: {item: "botania:livingrock"},
+                            D: {item: "create:propeller"},
+                            E: {item: "create:cogwheel"},
+                            F: {item: "create:shaft"}
+                        },
+                        result: {item: "create:encased_fan"}
+                    }), e.remove({id: "create:crafting/kinetics/water_wheel"}), e.custom({
+                        type: "extendedcrafting:shaped_table",
+                        pattern: [" AAA ", "AABAA", "ABCBA", "AABAA", " AAA "],
+                        key: {
+                            A: {tag: "minecraft:wooden_slabs"},
+                            B: {item: "create:andesite_alloy"},
+                            C: {item: "create:shaft"}
+                        },
+                        result: {item: "create:water_wheel"}
+                    })
+                }(e), e.remove({id: i.extended_crafting("basic_table")}), e.remove({id: i.extended_crafting("advanced_table")}), e.remove({id: i.extended_crafting("elite_table")}), e.remove({id: i.extended_crafting("ultimate_table")}), a(e, "advanced", "#forge:ingots/gold"), a(e, "elite", "#forge:ingots/manasteel"), a(e, "ultimate", "#forge:gems/mana_diamond")
+            }
+        }, 704: (e, t, n) => {
+            Object.defineProperty(t, "__esModule", {value: !0}), t.setup_ie_recipes = void 0;
+            var i = n(450);
+            t.setup_ie_recipes = function (e) {
+                e.remove(i.ie("crafting/hemp_fabric")), e.shaped("4x " + i.ie("hemp_fabric"), ["MHM", "HSH", "MHM"], {
+                    M: i.botania("manaweave_cloth"),
+                    H: i.ie("hemp_fiber"),
+                    S: "#forge:rods/wooden"
+                })
+            }
+        }, 383: (e, t, n) => {
+            Object.defineProperty(t, "__esModule", {value: !0}), t.setup_item_tags = void 0;
+            var i = n(443);
+            t.setup_item_tags = function (e) {
+                i.add_all_item_tags(e, "automaniac:grey_stones", "rankine:anorthosite", "rankine:rhyolite", "rankine:black_dacite", "rankine:gneiss", "rankine:phyllite")
+            }
+        }, 197: (e, t, n) => {
+            Object.defineProperty(t, "__esModule", {value: !0}), t.setup_tinkers_recipes = void 0;
+            var i = n(721);
+            t.setup_tinkers_recipes = function (e) {
+                i.tinkers_melting_tag(e, "automaniac:grey_stones", "kubejs:molten_grey_stone", 144, 500, 80), i.tinkers_table_casting_consumed(e, "forge:nuggets/zinc", "kubejs:molten_grey_stone", 144, "create:andesite_alloy", 80), i.tinkers_table_casting_consumed(e, "forge:nuggets/copper", "kubejs:molten_grey_stone", 144, "create:andesite_alloy", 80), i.tinkers_table_casting_consumed(e, "forge:nuggets/iron", "kubejs:molten_grey_stone", 144, "create:andesite_alloy", 80)
+            }
+        }
+    }, o = {};
+
+    function c(e) {
+        var t = o[e];
+        if (void 0 !== t) return t.exports;
+        var n = o[e] = {exports: {}};
+        return r[e].call(n.exports, n, n.exports, c), n.exports
+    }
+
+    e = c(197), t = c(383), n = c(521), i = c(330), a = c(704), onEvent("recipes", (function (t) {
+        e.setup_tinkers_recipes(t), n.setup_botanical_recipes(t), i.setup_extended_crafting_recipes(t), a.setup_ie_recipes(t)
+    })), onEvent("item.tags", (function (e) {
+        t.setup_item_tags(e)
+    }))
+})();

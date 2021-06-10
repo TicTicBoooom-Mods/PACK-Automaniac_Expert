@@ -1,5 +1,5 @@
 
-#Server side blocks configs
+#Server side block configs
 [blocks]
 
 	[blocks.globe]
@@ -16,23 +16,23 @@
 		range = 64
 
 	[blocks.bellows]
-		#bellows pushes air following this equation: 
-		#air=(sin(2PI*ticks/period)<0), with period = base_period-(redstone_power-1)*power_scaling 
+		#bellows pushes air following this equation:
+		#air=(sin(2PI*ticks/period)<0), with period = base_period-(redstone_power-1)*power_scaling
 		#represents base period at 1 power
 		#Range: 1 ~ 512
 		base_period = 78
 		#entities with velocity greated than this won't be pushed
 		#Range: 0.0 ~ 16.0
 		power_scaling = 2.0
-		#velocity increase uses this equation: 
-		#vel = base_vel*((range-entity_distance)/range) with base_vel = base_velocity_scaling/period 
+		#velocity increase uses this equation:
+		#vel = base_vel*((range-entity_distance)/range) with base_vel = base_velocity_scaling/period
 		#note that the block will push further the faster it's pulsing
 		#Range: 0.0 ~ 64.0
 		base_velocity_scaling = 5.0
 		#sets velocity changed flag when pushing entities +
 		#causes pushing animation to be smooth client side but also restricts player movement when being pushed
 		velocity_changed_flag = true
-		#note that it will still only keep alive the two fire blocks closer to it
+		#note that it will still only keep alive the two fire block closer to it
 		#Range: 0 ~ 16
 		range = 5
 
@@ -47,7 +47,7 @@
 	[blocks.turn_table]
 		#can rotate entities standing on it?
 		rotate_entities = true
-		#blocks that can't be rotated. Some special ones like chests, beds and pistons are already hardcoded
+		#block that can't be rotated. Some special ones like chests, beds and pistons are already hardcoded
 		blacklist = ["minecraft:end_portal_frame"]
 
 	[blocks.jar]
@@ -106,7 +106,7 @@
 		biomes = ["minecraft:swamp", "minecraft:swamp_hills", "minecraft:plains", "minecraft:sunflower_plains", "minecraft:dark_forest", "minecraft:dark_forest_hills", "byg:bayou", "byg:cypress_swamplands", "byg:glowshroom_bayou", "byg:mangrove_marshes", "byg:vibrant_swamplands", "byg:fresh_water_lake", "byg:grassland_plateau", "byg:wooded_grassland_plateau", "byg:flowering_grove", "byg:guiana_shield", "byg:guiana_clearing", "byg:meadow", "byg:orchard", "byg:seasonal_birch_forest", "byg:seasonal_deciduous_forest", "byg:seasonal_forest", "biomesoplenty:flower_meadow", "biomesoplenty:fir_clearing", "biomesoplenty:grove_lakes", "biomesoplenty:grove", "biomesoplenty:highland_moor", "biomesoplenty:wetland_marsh", "biomesoplenty:deep_bayou", "biomesoplenty:wetland"]
 		#Whitelisted mods. All biomes from said mods will be able to spawn fireflies. Use the one above for more control
 		mod_whitelist = []
-		#Spawn weight 
+		#Spawn weight
 		#Set to 0 to disable spawning entirely
 		#Range: 0 ~ 100
 		weight = 3
@@ -161,7 +161,7 @@
 		enabled = true
 
 	[tweaks.throwable_bricks]
-		#throw bricks at your foes! Might break glass blocks
+		#throw bricks at your foes! Might break glass block
 		enabled = true
 
 	[tweaks.wall_lantern]

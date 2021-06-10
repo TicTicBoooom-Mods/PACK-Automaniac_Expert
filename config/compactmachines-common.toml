@@ -1,6 +1,6 @@
 
 #Recipes and Integrations
 [recipes]
-	#Enable vanilla-style recipes.
+	#Enable vanilla-style recipes.ts.
 	vanillaRecipes = true
 

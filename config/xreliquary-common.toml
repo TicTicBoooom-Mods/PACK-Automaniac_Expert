@@ -1,13 +1,13 @@
 #Determines whether Reliquary items will be generated in chest loot (mostly mob drops, very rarely some lower level items)
 chestLootEnabled = true
-#Determines wheter Reliquary mob drops have crafting recipes
+#Determines wheter Reliquary mob drops have crafting recipes.ts
 dropCraftingRecipesEnabled = false
-#Whether mobs drop the Reliquary mob drops. This won't remove mob drop items from registry and replace them with something else, but allows to turn off the additional drops when mobs are killed by player. If this is turned off the mob drop crafting recipes turned on by the other setting can be used.
+#Whether mobs drop the Reliquary mob drops. This won't remove mob drop items from registry and replace them with something else, but allows to turn off the additional drops when mobs are killed by player. If this is turned off the mob drop crafting recipes.ts turned on by the other setting can be used.
 mobDropsEnabled = true
 
 #Disable sections of the mod
 [disable]
-	#Disable Alkahestry tome and its recipes
+	#Disable Alkahestry tome and its recipes.ts
 	alkahestryTome = false
 	#Disable the HANDGUN, bullets, magazines, and gun parts
 	handgun = false
@@ -17,7 +17,7 @@ mobDropsEnabled = true
 	pedestal = false
 	#Disable all display-only pedestals
 	passivePedestal = false
-	#Disable recipes to craft spawn eggs from fragments
+	#Disable recipes.ts to craft spawn eggs from fragments
 	disableSpawnEggRecipes = false
 
 #Potions related settings
@@ -61,7 +61,7 @@ mobDropsEnabled = true
 
 	#Destruction Catalyst settings
 	[items.destructionCatalyst]
-		#List of mundane blocks the catalyst will break
+		#List of mundane block the catalyst will break
 		mundaneBlocks = ["minecraft:dirt", "minecraft:coarse_dirt", "minecraft:podzol", "minecraft:mycelium", "minecraft:grass_block", "minecraft:gravel", "minecraft:cobblestone", "minecraft:stone", "minecraft:granite", "minecraft:diorite", "minecraft:andesite", "minecraft:sand", "minecraft:sandstone", "minecraft:snow", "minecraft:soul_sand", "minecraft:netherrack", "minecraft:end_stone"]
 		#Number of gunpowder it costs per catalyst use
 		#Range: 0 ~ 10
@@ -157,10 +157,10 @@ mobDropsEnabled = true
 		#Number of times that a rod may apply additional luck based bonemeal
 		#Range: 0 ~ 7
 		boneMealLuckRolls = 2
-		#Radius in which harvest rod breaks crops, bonemeals/plants/hoes blocks
+		#Radius in which harvest rod breaks crops, bonemeals/plants/hoes block
 		#Range: 0 ~ 5
 		aoeRadius = 2
-		#Ticks in between bonemealing/planting/hoeing blocks when player is using one of these AOE actions
+		#Ticks in between bonemealing/planting/hoeing block when player is using one of these AOE actions
 		#Range: 1 ~ 20
 		aoeCooldown = 3
 		#Maximum number of units harvest rod can hold per plantable item
@@ -496,7 +496,7 @@ mobDropsEnabled = true
 		#How long it takes after a melee weapon swing before it can swing again (in ticks)
 		#Range: 1 ~ 200
 		meleeWrapperCooldown = 5
-		#Range at which bucket will pickup liquid blocks or milk cows
+		#Range at which bucket will pickup liquid block or milk cows
 		#Range: 1 ~ 10
 		bucketWrapperRange = 4
 		#How long it takes in between bucket actions (in ticks)
@@ -505,7 +505,7 @@ mobDropsEnabled = true
 		#How long it takes between shearing actions (in ticks)
 		#Range: 1 ~ 10
 		shearsWrapperRange = 4
-		#Range at which shears will shear sheep or shearable blocks
+		#Range at which shears will shear sheep or shearable block
 		#Range: 1 ~ 200
 		shearsWrapperCooldown = 10
 		#Range at which pedestals will get turned on if either redstone block gets put in or redstone dust and transmitting pedestals is powered

@@ -25,7 +25,7 @@
 	#7: Middle Left
 	#Range: 0 ~ 7
 	hudPosition = 0
-	#Change the size of pinned recipes.
+	#Change the size of pinned recipes.ts.
 	#Range: 1 ~ 3
 	pinnedRecipeSize = 1
 
