@@ -99,6 +99,9 @@
 		[modules.core.sewage]
 			enabled = true
 
+		[modules.core.processing_addons]
+			enabled = true
+
 	#All machines that generate power
 	[modules.generator]
 		enabled = true
@@ -193,6 +196,12 @@
 			enabled = true
 
 		[modules.tools.infinity_hammer]
+			enabled = true
+
+		[modules.tools.infinity_launcher]
+			enabled = true
+
+		[modules.tools.infinity_nuke]
 			enabled = true
 
 	[modules.resource_production]

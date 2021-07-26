@@ -33,7 +33,7 @@
 			addTinyBouldersModdedBiomes = false
 			#
 			# Adds tiny boulders to Taiga Mountains and Snowy Taiga Mountains biomes 
-			# that can contain small amounts of Coal and Iron ores.
+			# that can contain small amounts of Coal and Iron ores.txt.
 			boulderTiny = true
 			#
 			# Replaces boulders in Giant Tree Taiga Hills and Giant Spruce Taiga Hills

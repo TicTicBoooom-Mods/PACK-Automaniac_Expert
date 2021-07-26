@@ -13,3 +13,5 @@ screenshots/
 resourcepacks/
 local/
 backups/
+journeymap/
+kubejs/src/node_modules/**/*.*

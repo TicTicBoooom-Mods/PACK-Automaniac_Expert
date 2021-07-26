@@ -2,8 +2,8 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        server_scripts: './server/server.ts',
-        startup_scripts: './startup/startup.ts',
+        server_scripts: './server/index.js',
+        startup_scripts: './startup/index.js',
     },
     output: {
         path: path.resolve(__dirname, '../'),
@@ -14,15 +14,18 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.?ts$/,
+                test: /\.m?js$/,
                 exclude: /(node_modules|bower_components)/,
                 use: {
-                    loader: 'ts-loader',
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['@babel/preset-env']
+                    }
                 }
             }
         ]
     },
     resolve: {
-        extensions: ['.tsx', '.ts', '.js'],
+        extensions: ['.js'],
     },
 }

@@ -1,0 +1,19 @@
+Tiers:
+    Tier 0:
+        Usage Materials:
+            Flint
+        Can Obtain:
+            Tin
+            Copper
+            Bronze
+    Tier 1:
+        Usage Materials:
+            Bronze
+        Can Obtain:
+            Iron
+            Gold
+            Silver
+    Tier 2:
+        Usage Materials:
+            Iron
+            Steel

@@ -29,5 +29,7 @@
   "forge:ingots/nickel": "emendatusenigmatica:nickel_ingot",
   "forge:ingots/lumium": "emendatusenigmatica:lumium_ingot",
   "forge:ingots/enderium": "emendatusenigmatica:enderium_ingot",
-  "forge:ingots/signalum": "emendatusenigmatica:signalum_ingot"
+  "forge:ingots/signalum": "emendatusenigmatica:signalum_ingot",
+  "forge:gems/sapphire": "thermal:sapphire",
+  "forge:gems/ruby": "crossroads:gem_ruby"
 }

@@ -48,22 +48,22 @@
 
 [blocks]
 	#Registry names of block that should be ignored.
-	#Blocks in this list will be excluded from the default ore list based on the forge:ores
+	#Blocks in this list will be excluded from the default ore list based on the forge:ores.txt
 	#tag and it will be impossible to tune the entity module to this block.
 	ignoredBlocks = ["minecraft:command_block"]
 	#Tag names of block tags that should be ignored.
-	#Blocks matching a tag in this list will be excluded from the default ore list based on theforge:ores tag and it will be impossible to tune the entity module to this block.
+	#Blocks matching a tag in this list will be excluded from the default ore list based on theforge:ores.txt tag and it will be impossible to tune the entity module to this block.
 	ignoredBlockTags = []
 
 [ores]
-	#Registry names of block considered 'common ores', requiring the common ore scanner module.
+	#Registry names of block considered 'common ores.txt', requiring the common ore scanner module.
 	commonOreBlocks = ["minecraft:clay"]
-	#Block tags of block considered 'common ores', requiring the common ore scanner module.
+	#Block tags of block considered 'common ores.txt', requiring the common ore scanner module.
 	commonOreBlockTags = ["forge:ores/iron", "forge:ores/redstone", "forge:ores/coal", "forge:ores/quartz"]
-	#Registry names of block considered 'rare ores', requiring the common ore scanner module.
+	#Registry names of block considered 'rare ores.txt', requiring the common ore scanner module.
 	rareOreBlocks = ["minecraft:glowstone"]
-	#Block tags of block considered 'rare ores', requiring the common ore scanner module.
-	#Any block with the forge:ores tag is implicitly in this list, unless the block also
+	#Block tags of block considered 'rare ores.txt', requiring the common ore scanner module.
+	#Any block with the forge:ores.txt tag is implicitly in this list, unless the block also
 	#matches an ignored or common ore block tag, or is an ignored or common block.
 	rareOreBlockTags = []
 

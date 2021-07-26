@@ -117,7 +117,7 @@
 				# Default: 128
 				#Range: 0 ~ 255
 				"Surface Cave Maximum Altitude" = 128
-				# The density of surface caves. Higher = more caves, closer together.
+				# The density of surface caves. Higher = more caves, closer together. 
 				# Default: 17
 				#Range: 0 ~ 100
 				"Surface Cave Density" = 17
@@ -134,7 +134,7 @@
 				# Default: 128
 				#Range: 0 ~ 255
 				"Vanilla Cave Maximum Altitude" = 128
-				# The density of vanilla caves. Higher = more caves, closer together.
+				# The density of vanilla caves. Higher = more caves, closer together. 
 				# Default: 14 (value used in vanilla)
 				#Range: 0 ~ 100
 				"Vanilla Cave Density" = 14
@@ -296,7 +296,7 @@
 	## Don't mess with these settings for normal gameplay.
 	###########################################################################################################
 	["Better Caves"."DEBUG Settings"]
-		# The visualizer creates worlds where there are no block except those indicating where caves
+		# The visualizer creates worlds where there are no blocks except those indicating where caves
 		#     and caverns would be carved out in a regular world. This is useful for visualizing the kinds of
 		#     caves and caverns your current config options will create.
 		#     Type 1 Cave: Wooden Planks

@@ -1,0 +1,44 @@
+{
+	id: "19F6C81B9DDA5C38"
+	group: "47FDAA60877EF402"
+	order_index: 0
+	filename: "trees_n_stuffs"
+	title: "Trees 'n' Stuffs"
+	icon: "minecraft:oak_sapling"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Wood"
+		x: 0.0d
+		y: 0.0d
+		subtitle: "Get Some Wood"
+		description: ["Start with the basic stuffs"]
+		id: "4F937181B4DA6713"
+		tasks: [
+			{
+				id: "5A55F35C8D27355E"
+				type: "item"
+				title: "Any #forge:sapling"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:sapling"
+					}
+				}
+			}
+			{
+				id: "5F12A3EA78C0A585"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}
+		]
+	}]
+}

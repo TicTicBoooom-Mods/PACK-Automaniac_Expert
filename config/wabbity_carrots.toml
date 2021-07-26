@@ -2,16 +2,16 @@
 version = 1
 
 [general]
-	#[INTERNAL] Development workflow enabled. Do NOT enable in regular environment. Applies only to library.
+	#[INTERNAL] Set true to enable development checks and workflows. Do NOT enable in a regular environment. Applies only to library.
 	debug_mode = false
 
 # Used to control how the library and dependent mods work with other thirdparty mods.
 [integration]
 	#Set to true to use fair play settings wherever appropriate (for example could disable x-ray potion effects or insta-kill weapons or certain enchantments in multi-player environments). Defaults OFF (anything goes!)
 	fairplay_pvp = false
-	#Set to true to consider neutral potions as 'bad' for certain operations; for example, when blanket clearing harmful effects with antidotes. Affects all library-dependent mods.
+	#Set to true to consider neutral potions as 'bad' for certain operations; for example, when blanket clearing harmful effects with antidotes or in selection of random potion effects. Affects all library-dependent mods.
 	neutral_effects_bad = false
-	#Set to true to make shared buffs visible to recipients in their HUD. Note that whether the  effect is actually visible may depend on the other mods present.
+	#Set to true to make shared buffs visible to recipients in their HUD. Note that whether the effect is actually visible may depend on the other mods present.
 	shared_effects_shown = false
 	#Set to your preferred baubles mod's id. Note that if this value is defined and the named mod is not present but another baubles mod is, that other mod will NOT be used. If you want to disable mod integration, set this value to "*NONE*". Leave the value as "*DEFAULT*" to have the library bind to any mod it recognizes (Curios,Baubles Reborn). Affects auto-integration of all library-dependent mods.
 	baubles_mod_used = "*DEFAULT*"
@@ -30,6 +30,8 @@ version = 1
 	shared_effects_max_reach = 8
 	#List of non-standard world types for which almanac tracking is done if that feature is enabled. Ignored unless almanacs have been enabled by at least one dependent mod. Tracking is ALWAYS done for the three standard Minecraft dimensions (overworld, the nether, the end). Requires a restart if changed.
 	almanac_tracked_dims = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
+	#Set false to prevent library from enabling Forge's builtin 'milk' fluid. Be warned that turning this off can impact builtin recipes.
+	forge_milkfluid = true
 
 # Used to diagnose farming and fishing almanacs and advancements within dependent mods. INTERNAL.
 # Does not affect the fixed psuedo-season of the Nether or the End (a single 336-day long season)

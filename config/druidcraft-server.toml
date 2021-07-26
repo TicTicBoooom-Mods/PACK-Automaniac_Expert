@@ -24,7 +24,7 @@
 	#Determines the rarity of rockroot veins.
 	#Range: 0 ~ 200
 	rockroot_weight = 16
-	#Whether to have ores from this mod spawn at all.
+	#Whether to have ores.txt from this mod spawn at all.
 	generate_ores = true
 
 [worldgeneration]

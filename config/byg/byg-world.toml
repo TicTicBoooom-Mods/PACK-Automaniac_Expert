@@ -207,7 +207,7 @@
 	#What biome(s) does Therium spawn in? Default: "byg#THE_END".
 	theriumSpawns = "byg#THEEND"
 
-#See the explanation for ores for configuring stones.
+#See the explanation for ores.txt for configuring stones.
 [stones]
 	#What biome(s) does Rocky Stone spawn in? Default: "!#THEEND#NETHER".
 	rockyStoneSpawns = "!#THEEND#NETHER"

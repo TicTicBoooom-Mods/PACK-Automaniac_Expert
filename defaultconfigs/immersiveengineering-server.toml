@@ -342,8 +342,8 @@
 		dimBlacklist = ["minecraft:the_end"]
 
 [ores]
-	#The retrogeneration key. Basically IE checks if this key is saved in the chunks data. If it isn't, it will perform retrogen on all ores marked for retrogen.
-	#Change this in combination with the retrogen booleans to regen only some of the ores.
+	#The retrogeneration key. Basically IE checks if this key is saved in the chunks data. If it isn't, it will perform retrogen on all ores.txt marked for retrogen.
+	#Change this in combination with the retrogen booleans to regen only some of the ores.txt.
 	retrogen_key = "DEFAULT"
 	#Set this to false to disable the logging of the chunks that were flagged for retrogen.
 	retrogen_log_flagChunk = true
@@ -367,7 +367,7 @@
 		#Set this to true to allow retro-generation of copper Ore.
 		retrogen_enable = false
 
-	#Ore generation config - bauxite
+	#Ore generation config - bauxite.json
 	[ores.bauxite]
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
@@ -382,7 +382,7 @@
 		#The average number of veins per chunk
 		#Range: > 0
 		avg_veins_per_chunk = 8
-		#Set this to true to allow retro-generation of bauxite Ore.
+		#Set this to true to allow retro-generation of bauxite.json Ore.
 		retrogen_enable = false
 
 	#Ore generation config - lead

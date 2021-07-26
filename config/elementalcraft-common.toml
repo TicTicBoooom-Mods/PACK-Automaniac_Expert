@@ -258,7 +258,7 @@
 		purifierBaseCost = 2500
 
 		[instruments.purifier.pureOre]
-			#The number of output pure ores by a purifier.
+			#The number of output pure ores.txt by a purifier.
 			#Range: 1 ~ 20
 			pureOreMultiplier = 2
 			#Set to false if you want to manualy manage processing of pure ore.
